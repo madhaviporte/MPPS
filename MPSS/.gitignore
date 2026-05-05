@@ -1,28 +1,29 @@
-# Compiled files
+# compiled files
 *.class
+out/
 
-# Logs
+# logs
 *.log
 
-# VS Code
+# vscode
 .vscode/
 
-# IntelliJ
+# intellij
 .idea/
 *.iml
 
-# Eclipse
+# eclipse
 .project
 .classpath
 .settings/
 
-# NetBeans
+# netbeans
 nbproject/private/
 
-# OS files
+# system files
 .DS_Store
 Thumbs.db
 
-# Temporary files
+# temp files
 *.tmp
 *.swp
