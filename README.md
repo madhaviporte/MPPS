@@ -1,61 +1,56 @@
 # Motor Part Shop Software (MPSS)
 
-MPSS ek simple desktop application hai jo motor parts shop ko manage karne ke liye banaya gaya hai. Iska main purpose inventory track karna, sales record karna aur stock ko properly manage karna hai.
+MPSS is a simple desktop application designed to manage a motor parts shop. Its main purpose is to track inventory, record sales, and manage stock efficiently.
 
 ## What this project does
 
-- New motor parts add kar sakte hain  
-- Sales record kar sakte hain  
-- Stock status dekh sakte hain (IN_STOCK, LOW_STOCK, OUT_OF_STOCK)  
-- Low stock hone par alert milta hai  
-- Vendor details manage kar sakte hain  
-- Daily revenue calculate hota hai  
-- Monthly sales graph show hota hai  
+* Add new motor parts
+* Record sales
+* View stock status (IN_STOCK, LOW_STOCK, OUT_OF_STOCK)
+* Get alerts when stock is low
+* Manage vendor details
+* Calculate daily revenue
+* Display monthly sales graph
 
-## Concept used
+## Concept Used
 
-Is project me Just-In-Time (JIT) concept use kiya gaya hai. Matlab unnecessary stock store nahi kiya jata aur jab stock kam ho jata hai to system reorder suggest karta hai.
+This project uses the Just-In-Time (JIT) concept. It means unnecessary stock is not stored, and when stock levels are low, the system suggests reordering.
 
-## Technologies used
+## Technologies Used
 
-- Java  
-- Java Swing  
-- OOP concepts  
+* Java
+* Java Swing
+* OOP concepts
 
 ## Project Structure
 
 MPSS/
- ├── src/
- │    ├── model/
- │    ├── ui/
- ├── bin/
- ├── .gitignore
- ├── run.bat
+├── src/
+│    ├── model/
+│    ├── ui/
+├── bin/
+├── .gitignore
+├── run.bat
 
-## How to run
+## How to Run
 
 Step 1: Compile
-javac -d bin src\model\*.java src\ui\*.java
+javac -d bin src\model*.java src\ui*.java
 
 Step 2: Run
 java -cp bin ui.MainFrame
 
 ## Purpose
 
-Ye project learning purpose ke liye banaya gaya hai jisme Java aur OOP concepts ko practical way me use kiya gaya hai.
+This project is built for learning purposes, demonstrating how Java and OOP concepts can be applied in a practical way.
 
-## Future improvements
+## Future Improvements
 
-- Database integration  
-- Login system  
-- Multi-user support  
-- Web version  
-
-## Author
-
-Madhavi Porte  
-Registration No: 2023UG1102  
+* Database integration
+* Login system
+* Multi-user support
+* Web version
 
 ## Note
 
-Ye project simple hai lekin real-world concept pe based hai jo inventory management ka basic idea deta hai.
+This is a simple project, but it is based on real-world concepts and provides a basic understanding of inventory management.
